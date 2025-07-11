@@ -220,17 +220,27 @@ hr {
 footer {
     display: flex;
     gap: 100px;
-    padding: 50px 200px;
+    padding: 130px 230px;
 }
 
-input {
-    font-size: 18px;
-    padding: 10px 100px 10px 10px;
+.footer-column {
+    width: 50%;
 }
 
-input,
-textarea {
-    border: 0;
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    border-color: white;
     display: block;
-    margin-bottom: 20px;
+    width: 85%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 18px;
+}
+
+#textarea {
+    height: 150px;
 }
