@@ -213,3 +213,24 @@ hr {
 .resume-btn {
     margin-top: 50px;
 }
+
+
+/* --------footer  related styles-------- */
+
+footer {
+    display: flex;
+    gap: 100px;
+    padding: 50px 200px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 100px 10px 10px;
+}
+
+input,
+textarea {
+    border: 0;
+    display: block;
+    margin-bottom: 20px;
+}
