@@ -1,0 +1,24 @@
+/* -----------common styles---------- */
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.color-primary {
+    color: #FD6E0A;
+}
+
+/* -------nav related style------------ */
+
+nav {
+    display: flex;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
