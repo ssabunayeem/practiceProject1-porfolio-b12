@@ -161,3 +161,55 @@ main {
     border-radius: 5px;
     box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+
+/* --------Resume section related styles-------- */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.resume-column-title {
+    font-size: 30px;
+}
+
+.experience {
+    padding-right: 100px;
+}
+
+.experience-title {
+    font-size: 25px;
+}
+
+
+.resume-column-title,
+.experience-title {
+    color: #474747;
+}
+
+
+
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-sub-title {
+    color: #757575;
+}
+
+hr {
+
+    color: #757575;
+    margin-right: 80px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+}
